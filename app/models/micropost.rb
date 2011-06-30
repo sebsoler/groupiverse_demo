@@ -1,5 +1,6 @@
 class Micropost < ActiveRecord::Base
   attr_accessible :content
+  attr_accessible :filter_id
   
   belongs_to :user
   
